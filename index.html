@@ -5,6 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="styles.css">
 
   <title>PORTFOLIO2</title>
@@ -14,6 +18,7 @@
   <nav>
     <li><a href="#home">HOME</a></li>
     <li><a href="#about">ABOUT ME</a></li>
+    <li><a href="#skills">SKILLS</a></li>
     <li><a href="#project">PROJECTS</a></li>
     <li><a href="#contact">CONTACT</a></li>
 </nav>   
@@ -23,20 +28,69 @@
 <p><em>MARY MBURU</em></p>
 <main>"Your mind is programmable - if you're not programming your mind, else will program it for you. - Jeremy Hammond"</main>
 </div>
+<h1>ABOUT ME</h1>
 <div id="about">
 <more>My name is Mary Wanjiku Mburu. I am born again and a christian by religion.I am currently a student<br> at Moringa school pursuing a course in Software Development. I love programming because <br>it makes me to be more creative and interact a lot with the computer's hardware and software.<br> It is a nice experience as i am able to come up with a lot of awesome designs and solve lots of problems.</more>
 <h1>Educational background</h1>
-<p>2019-present:Moringa School-Software Development</p>
-<p>2018-2019:KCA University-Information Communication and Technology</p>
+    <p>2019-present:Moringa School-Software Development</p>
+    <p>2018-2019:KCA University-Information Communication and Technology</p>
 <p>2017-2018:Arknet College-Computer Packages</p>
 <p>2014-2017:Our Lady Of Visitation Girls</p>
 <p>2005-2013:Gatena Primary School</p>
 <h1>Hobbies and interests</h1>
 <p>I love listening to music the most</p>
 <p>My greatest hobby is reading books especially motivational ones</p>
-<p>I love adventure and nature because i find it calm and more of mind-relaxing></p>
+<p>I love adventure and nature because i find it calm and more of mind-relaxing</p>
 <p>I find little babies so cool and charming and so given an opportunity, i love nursing them and spending quality time with them</p>
 </div>
+<h1>Skills</h1>
+<div id="skills">
+    <p>I am very good at writing articles and contents depending on the field.<br>I have done freelance writing with various organizations such as Proficient writers, Epitome, Brilliant and many others.<br>I am also skiled in designing websites using Html, Css and Javascript.</p>
+</div>
+
+<div id="projects">
+
+  <h1>My Projects</h1>
+    <div class="mywork">
+      <div>
+     <img src="images/git1.png" width="50%">
+     <p>This project is about a bookshop</p>
+     <button><a href="https://shee1998.github.io/Bookshop/"></a> Read More</button>
+    </div>
   
+    <div>
+    <img src="images/git2.png" width="50%">
+    <p>This is about my portfolio</p>
+    <button><a href="https://shee1998.github.io/PORTFOLIO2/."></a> Read More</button>
+    </div>
+
+  </div>
+</div>
+<div id="contact">
+  <h1>My contacts</h1>
+    <form action="#">
+  
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  
+      <label for="country">Counties</label>
+      <select id="country" name="country">
+        <option value="Kirinyaga">Kirinyaga</option>
+        <option value="Nairobi">Nairobi</option>
+        <option value="Machakos">Machakos</option>
+        <option value="Kiambu">Kiambu</option>
+
+      </select>
+  
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+  
+    </form>
+  </div>
 </body>
 </html>

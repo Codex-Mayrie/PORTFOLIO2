@@ -1,5 +1,5 @@
 body{
-  background-image: url("https://github.com/shee1998/images/blob/master/shee-back.jpg?raw=true");
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-jaNxA8boi3AV0hkPuQdZ_Kd_QnUKLgI6H35qthdpTXymynnk");
   background-size:cover;
   background-repeat: no-repeat;
 }
@@ -12,7 +12,7 @@ body{
   font-family: 'Times New Roman', Times, serif;
 }
 img{
-  border-radius: 100%;
+  /* border-radius: 100%; */
   width: 300px;
   padding-top: 130px;
 }
@@ -40,4 +40,71 @@ li a{
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-style: italic;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical 
+}
+
+input[type=submit] {
+  background-color:blue;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+#contacts{
+  padding: 20px;
+  clear: both;
+  width: 100%;
+  
+}
+#skills{
+  clear: both;
+  display: flex;
+}
+form{
+  width: 50%;
+  text-align: center;
+}
+.mywork{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  box-shadow: 10px 5px 5px solid cyan;
+  clear: both;
+  padding: 40px;
+}
+button{
+  clear: both;
+}
+#projects{
+  clear: both;
+}
+html{
+  scroll-behavior: smooth;
+}
+#about p{
+font-style: initial;
+font-size: 19px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color:whitesmoke;
+}
+#skills p{
+  font-style: initial;
+font-size: 19px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color:whitesmoke;
 }
