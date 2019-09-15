@@ -1,13 +1,9 @@
-body{
-  background-image: url("https://www.redembedded.com/consulting/wp-content/uploads/2014/12/background-1140x475.jpg");
-  background-size:cover;
-  background-repeat: no-repeat;
-}
+
 .nav li{
   display: flex;
   text-decoration: none;
   float:left;
-  padding: 30px;
+  padding: 50px;
   display: inline;
   font-family: 'Times New Roman', Times, serif;
 }
@@ -20,14 +16,9 @@ img{
   clear: both;
   text-align: center;
 }
-.pictures img{
-  width:350px;
-  height:400px;
-  padding-top: 130px;
-}
 .pictures p{
   font-size: 40px;
-  color:blue;
+  color:burlywood;
 }
 .nav{
   width: 100%;
@@ -41,7 +32,7 @@ li a{
   font-style:inherit;
 }
 .pictures main{
-  font-size: 20px;
+  font-size: 35px;
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-style: italic;
@@ -84,27 +75,25 @@ form{
   width: 50%;
   text-align: center;
 }
-h1{
-  color:blueviolet;
-}
-.mywork{
+
+#projects{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   box-shadow: 10px 5px 5px solid cyan;
   clear: both;
 }
-.mywork img{
+#projects img{
   padding:30px;
 }
-.mywork p button{
+ #projects p button{
 font-style: initial;
 font-size: 23px;
 font-family: Georgia, 'Times New Roman', Times, serif;
 color:whitesmoke;
 padding-bottom: 70px;
 }
-.mywork p{
+#projects p{
 font-style: initial;
 font-size: 23px;
 font-family: Georgia, 'Times New Roman', Times, serif;
@@ -113,7 +102,7 @@ padding: 20px;
 }
 h1{
   font-size: 50px;
-  color:blue;
+  color:burlywood;
   font-family: 'Times New Roman', Times, serif;
 }
 button{
