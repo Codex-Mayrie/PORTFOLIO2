@@ -35,7 +35,7 @@ img{
   background-color:blue;
 }
 li a{
-  color:black;
+  color:burlywood;
   text-decoration: none;
   font-size: 30px;
   font-style:inherit;
@@ -85,7 +85,7 @@ form{
   text-align: center;
 }
 h1{
-  color
+  color:blueviolet;
 }
 .mywork{
   display: flex;
