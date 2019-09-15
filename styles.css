@@ -1,4 +1,8 @@
-
+body{
+  background-image: url("https://thumbs.dreamstime.com/z/programming-code-abstract-technology-background-software-deve-programming-code-abstract-technology-background-software-116686079.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+}
 .nav li{
   display: flex;
   text-decoration: none;
