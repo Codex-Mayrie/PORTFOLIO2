@@ -11,8 +11,8 @@ body{
   display: inline;
   font-family: 'Times New Roman', Times, serif;
 }
-img{
-  /* border-radius: 100%; */
+.pictures img{
+  border-radius: 50%;
   width: 300px;
   padding-top: 130px;
 }
