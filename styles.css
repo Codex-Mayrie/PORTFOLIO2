@@ -12,9 +12,9 @@ body{
   font-family: 'Times New Roman', Times, serif;
 }
 .pictures img{
-  border-radius: 50%;
-  /* width: 300px;
-  padding-top: 130px; */
+  /* border-radius: 50%; */
+  width: 300px;
+  padding-top: 130px;
 }
 .pictures{
   clear: both;
