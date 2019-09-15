@@ -13,8 +13,8 @@ body{
 }
 .pictures img{
   border-radius: 50%;
-  width: 300px;
-  padding-top: 130px;
+  /* width: 300px;
+  padding-top: 130px; */
 }
 .pictures{
   clear: both;
