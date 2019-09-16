@@ -15,3 +15,5 @@ it is about my skills and experience as a web developer and designer
 
 # Live Links
 [https://shee1998.github.io/PORTFOLIO2/](Live link of my portfolio)
+# Licence
+- This project has no licence and so it is free to use. Anyone can access it anywhere and at any time. Copyrights(2019)
