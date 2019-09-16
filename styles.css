@@ -90,7 +90,7 @@ form{
 #projects img{
   padding:30px;
 }
- #projects p button{
+ #projects p li{
 font-style: initial;
 font-size: 23px;
 font-family: Georgia, 'Times New Roman', Times, serif;
@@ -109,7 +109,7 @@ h1{
   color:burlywood;
   font-family: 'Times New Roman', Times, serif;
 }
-button{
+li{
   clear: both;
 }
 #projects{
