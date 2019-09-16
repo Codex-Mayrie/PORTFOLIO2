@@ -1,5 +1,5 @@
 body{
-  background-image: url("https://thumbs.dreamstime.com/z/programming-code-abstract-technology-background-software-deve-programming-code-abstract-technology-background-software-116686079.jpg");
+  background-image: url("https://images.pexels.com/photos/754082/pexels-photo-754082.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   background-size:cover;
   background-repeat: no-repeat;
 }
@@ -8,14 +8,16 @@ body{
   text-decoration: none;
   float:left;
   padding: 50px;
-  display: inline;
+  display: inline-block;
   font-family: 'Times New Roman', Times, serif;
 }
+
 img{
   /* border-radius: 50%; */
   width: 300px;
   padding-top: 130px;
 }
+
 .pictures{
   clear: both;
   text-align: center;
@@ -33,7 +35,7 @@ li a{
   color:burlywood;
   text-decoration: none;
   font-size: 30px;
-  font-style:inherit;
+  /*font-style:inherit;*/
 }
 .pictures main{
   font-size: 35px;
@@ -65,7 +67,7 @@ input[type=submit]:hover {
   background-color: #45a049;
 }
 
-#contacts{
+#contact{
   padding: 20px;
   clear: both;
   width: 100%;
@@ -75,20 +77,33 @@ input[type=submit]:hover {
   clear: both;
   display: flex;
 }
+label{
+font-style: initial;
+font-size: 23px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: white;
+}
+#contact{
+font-style: initial;
+font-size: 23px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+color: white;
+}
+
 form{
-  width: 50%;
+  width: 100%;
   text-align: center;
 }
 
 #projects{
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   box-shadow: 10px 5px 5px solid cyan;
   clear: both;
 }
 #projects img{
   padding:30px;
+  margin-left: 50%;
 }
  #projects p li{
 font-style: initial;
@@ -103,15 +118,31 @@ font-size: 23px;
 font-family: Georgia, 'Times New Roman', Times, serif;
 color:whitesmoke;
 padding: 20px;
+margin-left: 50%;
+}
+#about{
+  text-align: center;
+}
+#contact{
+  text-align: center;
 }
 h1{
   font-size: 50px;
   color:burlywood;
   font-family: 'Times New Roman', Times, serif;
+  text-align: center;
 }
-li{
+#skills{
+  text-align: center;
   clear: both;
 }
+#projects{
+  text-align: center;
+  display: flex;
+}
+/*li{
+  clear: both;
+}*/
 #projects{
   clear: both;
 }
